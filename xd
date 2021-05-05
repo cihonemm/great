@@ -85,7 +85,7 @@ local UICorner_37 = Instance.new("UICorner")
 local close = Instance.new("TextButton")
 local UICorner_38 = Instance.new("UICorner")
 
---Properties:
+-- Hacks
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -204,7 +204,7 @@ tepe.Parent = Frame
 tepe.Active = true
 tepe.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
 tepe.BorderColor3 = Color3.fromRGB(37, 37, 37)
-tepe.Position = UDim2.new(2.23600721, 0, 0.0992092937, 0)
+tepe.Position = UDim2.new(9.9989996, 0, 0.119999997, 0)
 tepe.Size = UDim2.new(0, 338, 0, 261)
 
 UIGridLayout.Parent = tepe
@@ -379,7 +379,7 @@ creditsfreym.Parent = Frame
 creditsfreym.Active = true
 creditsfreym.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
 creditsfreym.BorderColor3 = Color3.fromRGB(37, 37, 37)
-creditsfreym.Position = UDim2.new(2.23600721, 0, 0.119558133, 0)
+creditsfreym.Position = UDim2.new(9.9989996, 0, 0.119999997, 0)
 creditsfreym.Size = UDim2.new(0, 338, 0, 261)
 
 TextLabel_2.Parent = creditsfreym
@@ -403,7 +403,7 @@ Butons.Parent = Frame
 Butons.Active = true
 Butons.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
 Butons.BorderColor3 = Color3.fromRGB(37, 37, 37)
-Butons.Position = UDim2.new(2.23600745, 0, 0.166069761, 0)
+Butons.Position = UDim2.new(9.9989996, 0, 0.119999997, 0)
 Butons.Size = UDim2.new(0, 338, 0, 261)
 
 UIGridLayout_2.Parent = Butons
@@ -649,7 +649,7 @@ UICorner_38.Parent = close
 
 -- Scripts:
 
-local function RTAMEV_fake_script() -- TextLabel.LocalScript 
+local function LZOBT_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
@@ -669,8 +669,8 @@ local function RTAMEV_fake_script() -- TextLabel.LocalScript
 	end
 	
 end
-coroutine.wrap(RTAMEV_fake_script)()
-local function PLJBS_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(LZOBT_fake_script)()
+local function QXCKGC_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -735,8 +735,8 @@ local function PLJBS_fake_script() -- TextLabel.LocalScript
 	
 	
 end
-coroutine.wrap(PLJBS_fake_script)()
-local function ENWQ_fake_script() -- Frame.LocalScript 
+coroutine.wrap(QXCKGC_fake_script)()
+local function FUKQ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local searchBar = script.Parent.arama
@@ -762,8 +762,8 @@ local function ENWQ_fake_script() -- Frame.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(ENWQ_fake_script)()
-local function KCOV_fake_script() -- Frame.LocalScript 
+coroutine.wrap(FUKQ_fake_script)()
+local function ZNSXEG_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local searchBar = script.Parent.arama
@@ -789,8 +789,8 @@ local function KCOV_fake_script() -- Frame.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(KCOV_fake_script)()
-local function BPGBGH_fake_script() -- close.LocalScript 
+coroutine.wrap(ZNSXEG_fake_script)()
+local function WGVQDN_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	cooldown = false
@@ -859,8 +859,8 @@ local function BPGBGH_fake_script() -- close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BPGBGH_fake_script)()
-local function MBDP_fake_script() -- Frame.DraggableScript 
+coroutine.wrap(WGVQDN_fake_script)()
+local function PNQGQ_fake_script() -- Frame.DraggableScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	--This script was created by Tiffblocks and uploaded by me :P
@@ -904,28 +904,28 @@ local function MBDP_fake_script() -- Frame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(MBDP_fake_script)()
-local function ACMTTI_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(PNQGQ_fake_script)()
+local function HTUFP_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.bro.scripts.MouseButton1Click:Connect(function()
-		script.Parent.Frame.tepe:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
-		script.Parent.Frame.creditsfreym:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
+		script.Parent.Frame.tepe:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
+		script.Parent.Frame.creditsfreym:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
 		script.Parent.Frame.Butons:TweenPosition(UDim2.new(0.503, 0,0.215, 0))
 	end)
 	
 	script.Parent.Frame.bro.teleports.MouseButton1Click:Connect(function()
-		script.Parent.Frame.Butons:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
-		script.Parent.Frame.creditsfreym:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
+		script.Parent.Frame.Butons:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
+		script.Parent.Frame.creditsfreym:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
 		script.Parent.Frame.tepe:TweenPosition(UDim2.new(0.503, 0,0.215, 0))
 	end)
 	
 	script.Parent.Frame.bro.credits.MouseButton1Click:Connect(function()
-		script.Parent.Frame.tepe:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
-		script.Parent.Frame.Butons:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
+		script.Parent.Frame.tepe:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
+		script.Parent.Frame.Butons:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
 		script.Parent.Frame.creditsfreym:TweenPosition(UDim2.new(0.503, 0,0.215, 0))
 	end)
 	
 	
 end
-coroutine.wrap(ACMTTI_fake_script)()
+coroutine.wrap(HTUFP_fake_script)()
