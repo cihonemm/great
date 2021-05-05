@@ -85,7 +85,7 @@ local UICorner_37 = Instance.new("UICorner")
 local close = Instance.new("TextButton")
 local UICorner_38 = Instance.new("UICorner")
 
--- Hacks
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -140,7 +140,7 @@ bro.Size = UDim2.new(0, 291, 0, 267)
 credits.Name = "credits"
 credits.Parent = bro
 credits.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-credits.Position = UDim2.new(0.0385559611, 0, 0.314044088, 0)
+credits.Position = UDim2.new(0.12446662, 0, 0.314044088, 0)
 credits.Size = UDim2.new(0, 200, 0, 50)
 credits.Font = Enum.Font.SourceSans
 credits.Text = "Credits"
@@ -154,7 +154,7 @@ UICorner_4.Parent = credits
 scripts.Name = "scripts"
 scripts.Parent = bro
 scripts.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-scripts.Position = UDim2.new(0.0389021523, 0, 0.0128642507, 0)
+scripts.Position = UDim2.new(0.124812797, 0, 0.0201316923, 0)
 scripts.Size = UDim2.new(0, 200, 0, 50)
 scripts.Font = Enum.Font.SourceSans
 scripts.Text = "Scripts"
@@ -168,7 +168,7 @@ UICorner_5.Parent = scripts
 teleports.Name = "teleports"
 teleports.Parent = bro
 teleports.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-teleports.Position = UDim2.new(0.0415196903, 0, 0.157259226, 0)
+teleports.Position = UDim2.new(0.123993918, 0, 0.164526671, 0)
 teleports.Size = UDim2.new(0, 200, 0, 50)
 teleports.Font = Enum.Font.SourceSans
 teleports.Text = "Teleports"
@@ -649,7 +649,7 @@ UICorner_38.Parent = close
 
 -- Scripts:
 
-local function LZOBT_fake_script() -- TextLabel.LocalScript 
+local function UFAB_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
@@ -669,8 +669,8 @@ local function LZOBT_fake_script() -- TextLabel.LocalScript
 	end
 	
 end
-coroutine.wrap(LZOBT_fake_script)()
-local function QXCKGC_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(UFAB_fake_script)()
+local function EDKBB_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -735,8 +735,8 @@ local function QXCKGC_fake_script() -- TextLabel.LocalScript
 	
 	
 end
-coroutine.wrap(QXCKGC_fake_script)()
-local function FUKQ_fake_script() -- Frame.LocalScript 
+coroutine.wrap(EDKBB_fake_script)()
+local function ZUWLS_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local searchBar = script.Parent.arama
@@ -762,8 +762,8 @@ local function FUKQ_fake_script() -- Frame.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(FUKQ_fake_script)()
-local function ZNSXEG_fake_script() -- Frame.LocalScript 
+coroutine.wrap(ZUWLS_fake_script)()
+local function URYKNO_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local searchBar = script.Parent.arama
@@ -789,8 +789,8 @@ local function ZNSXEG_fake_script() -- Frame.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(ZNSXEG_fake_script)()
-local function WGVQDN_fake_script() -- close.LocalScript 
+coroutine.wrap(URYKNO_fake_script)()
+local function OPIO_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	cooldown = false
@@ -859,8 +859,8 @@ local function WGVQDN_fake_script() -- close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WGVQDN_fake_script)()
-local function PNQGQ_fake_script() -- Frame.DraggableScript 
+coroutine.wrap(OPIO_fake_script)()
+local function YYYL_fake_script() -- Frame.DraggableScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	--This script was created by Tiffblocks and uploaded by me :P
@@ -904,8 +904,8 @@ local function PNQGQ_fake_script() -- Frame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(PNQGQ_fake_script)()
-local function HTUFP_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(YYYL_fake_script)()
+local function SCTAUL_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.bro.scripts.MouseButton1Click:Connect(function()
@@ -928,4 +928,4 @@ local function HTUFP_fake_script() -- ScreenGui.LocalScript
 	
 	
 end
-coroutine.wrap(HTUFP_fake_script)()
+coroutine.wrap(SCTAUL_fake_script)()
