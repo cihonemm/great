@@ -649,7 +649,7 @@ UICorner_38.Parent = close
 
 -- Scripts:
 
-local function UFAB_fake_script() -- TextLabel.LocalScript 
+local function YZLNI_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
@@ -669,8 +669,8 @@ local function UFAB_fake_script() -- TextLabel.LocalScript
 	end
 	
 end
-coroutine.wrap(UFAB_fake_script)()
-local function EDKBB_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(YZLNI_fake_script)()
+local function TRVHEM_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -735,8 +735,8 @@ local function EDKBB_fake_script() -- TextLabel.LocalScript
 	
 	
 end
-coroutine.wrap(EDKBB_fake_script)()
-local function ZUWLS_fake_script() -- Frame.LocalScript 
+coroutine.wrap(TRVHEM_fake_script)()
+local function SPNGN_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local searchBar = script.Parent.arama
@@ -762,8 +762,8 @@ local function ZUWLS_fake_script() -- Frame.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(ZUWLS_fake_script)()
-local function URYKNO_fake_script() -- Frame.LocalScript 
+coroutine.wrap(SPNGN_fake_script)()
+local function CUEKUH_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local searchBar = script.Parent.arama
@@ -789,8 +789,8 @@ local function URYKNO_fake_script() -- Frame.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(URYKNO_fake_script)()
-local function OPIO_fake_script() -- close.LocalScript 
+coroutine.wrap(CUEKUH_fake_script)()
+local function RYBHMMH_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	cooldown = false
@@ -800,9 +800,9 @@ local function OPIO_fake_script() -- close.LocalScript
 		if cooldown == false then
 			if open == true then
 				cooldown = true
-				script.Parent.Parent.tepe:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
-				script.Parent.Parent.creditsfreym:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
-				script.Parent.Parent.Butons:TweenPosition(UDim2.new(2.236, 0,0.166, 0))
+				script.Parent.Parent.tepe:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
+				script.Parent.Parent.creditsfreym:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
+				script.Parent.Parent.Butons:TweenPosition(UDim2.new(9.999, 0,0.12, 0))
 				wait(0.1)
 				script.Parent.Parent.tepe.Visible = false
 				script.Parent.Parent.creditsfreym .Visible = false
@@ -859,8 +859,8 @@ local function OPIO_fake_script() -- close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OPIO_fake_script)()
-local function YYYL_fake_script() -- Frame.DraggableScript 
+coroutine.wrap(RYBHMMH_fake_script)()
+local function VJXNFG_fake_script() -- Frame.DraggableScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	--This script was created by Tiffblocks and uploaded by me :P
@@ -904,8 +904,8 @@ local function YYYL_fake_script() -- Frame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(YYYL_fake_script)()
-local function SCTAUL_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(VJXNFG_fake_script)()
+local function PSNZVB_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.bro.scripts.MouseButton1Click:Connect(function()
@@ -928,4 +928,4 @@ local function SCTAUL_fake_script() -- ScreenGui.LocalScript
 	
 	
 end
-coroutine.wrap(SCTAUL_fake_script)()
+coroutine.wrap(PSNZVB_fake_script)()
