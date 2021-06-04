@@ -1,251 +1,720 @@
--- Gui to Lua
--- Version: 3.2
+-- Made By yenilmez_xxgg
 
--- Instances:
-
-local ScreenGui = Instance.new("ScreenGui")
-local main = Instance.new("Frame")
+local mularka = Instance.new("ScreenGui")
+local mayin = Instance.new("Frame")
+local butonsecimi = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local we = Instance.new("ImageLabel")
+local teleports = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local ye = Instance.new("TextLabel")
-local xd = Instance.new("TextLabel")
+local exploit = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local of = Instance.new("TextLabel")
+local credits = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
-local qwe = Instance.new("ImageLabel")
+local buttons = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local language = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local cleargui = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local teleportsframe = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local megavip = Instance.new("TextButton")
+local vip = Instance.new("TextButton")
+local LOBBY = Instance.new("TextButton")
+local SHOP = Instance.new("TextButton")
+local gamestore = Instance.new("TextButton")
+local MIDDLEISLAD = Instance.new("TextButton")
+local SearchBar = Instance.new("TextBox")
+local UICorner_10 = Instance.new("UICorner")
+local scriptsframe = Instance.new("ScrollingFrame")
+local btools = Instance.new("TextButton")
+local UIGridLayout = Instance.new("UIGridLayout")
+local freearmour = Instance.new("TextButton")
+local reviz = Instance.new("TextButton")
+local infyield = Instance.new("TextButton")
+local blackhole = Instance.new("TextButton")
+local tptool = Instance.new("TextButton")
+local autofarm = Instance.new("TextButton")
+local ctrltp = Instance.new("TextButton")
+local fling = Instance.new("TextButton")
+local hitbox = Instance.new("TextButton")
+local ctrlflyteleport = Instance.new("TextButton")
+local chatspy = Instance.new("TextButton")
+local fepunch = Instance.new("TextButton")
+local feshadow = Instance.new("TextButton")
+local exploitframe = Instance.new("Frame")
+local ofya = Instance.new("TextLabel")
+local qwertya = Instance.new("TextLabel")
+local languageframe = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local dil = Instance.new("TextLabel")
+local turk = Instance.new("TextButton")
+local english = Instance.new("TextButton")
+local espanol = Instance.new("TextButton")
+local ananasor = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local creditsframe = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_14 = Instance.new("UICorner")
+local oleyyu = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+mularka.Name = "mularka"
+mularka.Parent = game.Workspace
+mularka.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-main.Name = "main"
-main.Parent = ScreenGui
-main.Active = true
-main.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-main.Position = UDim2.new(0.423000008, 0, 0.435000002, 0)
-main.Visible = false
+mayin.Name = "mayin"
+mayin.Parent = mularka
+mayin.Active = true
+mayin.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+mayin.BorderColor3 = Color3.fromRGB(37, 37, 37)
+mayin.Position = UDim2.new(5.15700006, 0, 0.238000005, 0)
+mayin.Size = UDim2.new(0, 483, 0, 315)
 
-UICorner.CornerRadius = UDim.new(0, 4)
-UICorner.Parent = main
+butonsecimi.Name = "butonsecimi"
+butonsecimi.Parent = mayin
+butonsecimi.Active = true
+butonsecimi.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+butonsecimi.Position = UDim2.new(0, 0, 0.103856452, 0)
+butonsecimi.Size = UDim2.new(0, 21, 0, 280)
 
-we.Name = "we"
-we.Parent = main
-we.Active = true
-we.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-we.Position = UDim2.new(0.0409382582, 0, 0.213589191, 0)
-we.Image = "http://www.roblox.com/asset/?id=6753145358"
+UICorner.CornerRadius = UDim.new(0, 3)
+UICorner.Parent = butonsecimi
 
-UICorner_2.CornerRadius = UDim.new(0, 6)
-UICorner_2.Parent = we
+teleports.Name = "teleports"
+teleports.Parent = butonsecimi
+teleports.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+teleports.Position = UDim2.new(0.065040648, 0, 0.185419858, 0)
+teleports.Size = UDim2.new(0, 0, 0, 36)
+teleports.Font = Enum.Font.PatrickHand
+teleports.Text = "Teleports"
+teleports.TextColor3 = Color3.fromRGB(0, 0, 0)
+teleports.TextSize = 29.000
+teleports.TextWrapped = true
 
-ye.Name = "ye"
-ye.Parent = main
-ye.Active = true
-ye.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-ye.BorderColor3 = Color3.fromRGB(46, 46, 46)
-ye.Position = UDim2.new(0.322419763, 0, 0.213589191, 0)
-ye.Font = Enum.Font.GothamBlack
-ye.Text = "Made By yenilmez_xxgg"
-ye.TextColor3 = Color3.fromRGB(0, 0, 0)
-ye.TextScaled = true
-ye.TextSize = 22.000
-ye.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
-ye.TextStrokeTransparency = 0.000
-ye.TextWrapped = true
+UICorner_2.CornerRadius = UDim.new(0, 3)
+UICorner_2.Parent = teleports
 
-xd.Name = "xd"
-xd.Parent = main
-xd.Active = true
-xd.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-xd.Position = UDim2.new(0, 0, 0.931431532, 0)
-xd.Font = Enum.Font.SourceSans
-xd.Text = ""
-xd.TextColor3 = Color3.fromRGB(0, 0, 0)
-xd.TextSize = 14.000
+exploit.Name = "exploit"
+exploit.Parent = butonsecimi
+exploit.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+exploit.Position = UDim2.new(0.065040648, 0, 0.360240608, 0)
+exploit.Size = UDim2.new(0, 0, 0, 36)
+exploit.Font = Enum.Font.PatrickHand
+exploit.Text = "Discord"
+exploit.TextColor3 = Color3.fromRGB(0, 0, 0)
+exploit.TextSize = 29.000
+exploit.TextWrapped = true
 
-UICorner_3.Parent = xd
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = exploit
 
-of.Name = "of"
-of.Parent = main
-of.Active = true
-of.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
-of.Position = UDim2.new(0, 0, 0.835995853, 0)
-of.Font = Enum.Font.Roboto
-of.Text = ""
-of.TextColor3 = Color3.fromRGB(0, 0, 0)
-of.TextSize = 22.000
-of.TextWrapped = true
+credits.Name = "credits"
+credits.Parent = butonsecimi
+credits.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+credits.Position = UDim2.new(0.0650409013, 0, 0.700025678, 0)
+credits.Size = UDim2.new(0, 0, 0, 36)
+credits.Font = Enum.Font.PatrickHand
+credits.Text = "Credits"
+credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+credits.TextSize = 29.000
+credits.TextWrapped = true
 
-UICorner_4.Parent = of
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = credits
 
-qwe.Name = "qwe"
-qwe.Parent = ScreenGui
-qwe.Active = true
-qwe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-qwe.BackgroundTransparency = 1.000
-qwe.Position = UDim2.new(0.42334795, 0, 0.435003906, 0)
-qwe.Size = UDim2.new(0, 100, 0, 100)
-qwe.Image = "http://www.roblox.com/asset/?id=6753145358"
-qwe.ImageTransparency = 1.000
+buttons.Name = "buttons"
+buttons.Parent = butonsecimi
+buttons.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+buttons.Position = UDim2.new(0.065040648, 0, 0.0248591918, 0)
+buttons.Size = UDim2.new(0, 0, 0, 36)
+buttons.Font = Enum.Font.PatrickHand
+buttons.Text = "Buttons"
+buttons.TextColor3 = Color3.fromRGB(0, 0, 0)
+buttons.TextSize = 29.000
+buttons.TextWrapped = true
 
-UICorner_5.CornerRadius = UDim.new(0, 6)
-UICorner_5.Parent = qwe
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = buttons
+
+language.Name = "language"
+language.Parent = butonsecimi
+language.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+language.Position = UDim2.new(0.065040648, 0, 0.521633327, 0)
+language.Size = UDim2.new(0, 0, 0, 36)
+language.Font = Enum.Font.PatrickHand
+language.Text = "LANGUAGE"
+language.TextColor3 = Color3.fromRGB(0, 0, 0)
+language.TextSize = 29.000
+language.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = language
+
+cleargui.Name = "cleargui"
+cleargui.Parent = butonsecimi
+cleargui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+cleargui.Position = UDim2.new(0.0650409535, 0, 0.868061841, 0)
+cleargui.Size = UDim2.new(0, 0, 0, 36)
+cleargui.Font = Enum.Font.PatrickHand
+cleargui.Text = "clear main"
+cleargui.TextColor3 = Color3.fromRGB(255, 0, 0)
+cleargui.TextSize = 29.000
+cleargui.TextStrokeColor3 = Color3.fromRGB(0, 170, 255)
+cleargui.TextStrokeTransparency = 0.000
+cleargui.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = cleargui
+
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = mayin
+
+teleportsframe.Name = "teleportsframe"
+teleportsframe.Parent = mayin
+teleportsframe.Active = true
+teleportsframe.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+teleportsframe.Position = UDim2.new(5.38100004, 0, 0.107000001, 0)
+teleportsframe.Size = UDim2.new(0, 324, 0, 261)
+
+UICorner_9.Parent = teleportsframe
+
+megavip.Name = "megavip"
+megavip.Parent = teleportsframe
+megavip.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+megavip.Position = UDim2.new(0.0225988701, 0, 0.0332103334, 0)
+megavip.Size = UDim2.new(0, 89, 0, 55)
+megavip.Font = Enum.Font.PermanentMarker
+megavip.Text = "MEGA VIP"
+megavip.TextColor3 = Color3.fromRGB(255, 255, 255)
+megavip.TextSize = 14.000
+
+vip.Name = "vip"
+vip.Parent = teleportsframe
+vip.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+vip.Position = UDim2.new(0.377426833, 0, 0.0332103334, 0)
+vip.Size = UDim2.new(0, 89, 0, 55)
+vip.Font = Enum.Font.PermanentMarker
+vip.Text = "VIP"
+vip.TextColor3 = Color3.fromRGB(255, 255, 255)
+vip.TextSize = 14.000
+
+LOBBY.Name = "LOBBY"
+LOBBY.Parent = teleportsframe
+LOBBY.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+LOBBY.Position = UDim2.new(0.720715523, 0, 0.0332103334, 0)
+LOBBY.Size = UDim2.new(0, 89, 0, 55)
+LOBBY.Font = Enum.Font.PermanentMarker
+LOBBY.Text = "LOBBY"
+LOBBY.TextColor3 = Color3.fromRGB(255, 255, 255)
+LOBBY.TextSize = 14.000
+
+SHOP.Name = "SHOP"
+SHOP.Parent = teleportsframe
+SHOP.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SHOP.Position = UDim2.new(0.377426833, 0, 0.446654975, 0)
+SHOP.Size = UDim2.new(0, 89, 0, 55)
+SHOP.Font = Enum.Font.PermanentMarker
+SHOP.Text = "SHOP"
+SHOP.TextColor3 = Color3.fromRGB(255, 255, 255)
+SHOP.TextSize = 14.000
+
+gamestore.Name = "gamestore"
+gamestore.Parent = teleportsframe
+gamestore.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+gamestore.Position = UDim2.new(0.720715523, 0, 0.446654975, 0)
+gamestore.Size = UDim2.new(0, 89, 0, 55)
+gamestore.Font = Enum.Font.PermanentMarker
+gamestore.Text = "GAMESTORE"
+gamestore.TextColor3 = Color3.fromRGB(255, 255, 255)
+gamestore.TextSize = 14.000
+
+MIDDLEISLAD.Name = "MIDDLEISLAD"
+MIDDLEISLAD.Parent = teleportsframe
+MIDDLEISLAD.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+MIDDLEISLAD.Position = UDim2.new(0.0225988701, 0, 0.446654975, 0)
+MIDDLEISLAD.Size = UDim2.new(0, 89, 0, 55)
+MIDDLEISLAD.Font = Enum.Font.PermanentMarker
+MIDDLEISLAD.Text = "MIDDLE ISLAND"
+MIDDLEISLAD.TextColor3 = Color3.fromRGB(255, 255, 255)
+MIDDLEISLAD.TextSize = 14.000
+
+SearchBar.Name = "SearchBar"
+SearchBar.Parent = mayin
+SearchBar.AnchorPoint = Vector2.new(0.5, 0)
+SearchBar.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
+SearchBar.BorderSizePixel = 2
+SearchBar.Position = UDim2.new(5.66699982, 0, 0.0759999976, 0)
+SearchBar.Size = UDim2.new(0.686082482, 0, 0.075000003, 0)
+SearchBar.ZIndex = 2
+SearchBar.Font = Enum.Font.SourceSans
+SearchBar.PlaceholderColor3 = Color3.fromRGB(102, 102, 102)
+SearchBar.PlaceholderText = "Search"
+SearchBar.Text = ""
+SearchBar.TextColor3 = Color3.fromRGB(204, 204, 204)
+SearchBar.TextScaled = true
+SearchBar.TextSize = 14.000
+SearchBar.TextWrapped = true
+
+UICorner_10.Parent = SearchBar
+
+scriptsframe.Name = "scriptsframe"
+scriptsframe.Parent = mayin
+scriptsframe.Active = true
+scriptsframe.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+scriptsframe.BorderColor3 = Color3.fromRGB(255, 255, 255)
+scriptsframe.BorderSizePixel = 0
+scriptsframe.Position = UDim2.new(5.38100004, 0, 0.107000001, 0)
+scriptsframe.Size = UDim2.new(0, 341, 0, 238)
+
+btools.Name = "btools"
+btools.Parent = scriptsframe
+btools.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+btools.Position = UDim2.new(0, 0, 0.0696428567, 0)
+btools.Size = UDim2.new(0, 200, 0, 50)
+btools.Font = Enum.Font.Roboto
+btools.Text = "Btools"
+btools.TextColor3 = Color3.fromRGB(255, 255, 255)
+btools.TextSize = 21.000
+btools.TextWrapped = true
+
+UIGridLayout.Parent = scriptsframe
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+freearmour.Name = "freearmour"
+freearmour.Parent = scriptsframe
+freearmour.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+freearmour.Position = UDim2.new(0, 0, 0.0696428567, 0)
+freearmour.Size = UDim2.new(0, 200, 0, 50)
+freearmour.Font = Enum.Font.Roboto
+freearmour.Text = "Free Armour"
+freearmour.TextColor3 = Color3.fromRGB(255, 255, 255)
+freearmour.TextSize = 21.000
+freearmour.TextWrapped = true
+
+reviz.Name = "reviz"
+reviz.Parent = scriptsframe
+reviz.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+reviz.Position = UDim2.new(0, 0, 0.0696428567, 0)
+reviz.Size = UDim2.new(0, 200, 0, 50)
+reviz.Font = Enum.Font.Roboto
+reviz.Text = "REVIZ"
+reviz.TextColor3 = Color3.fromRGB(255, 255, 255)
+reviz.TextSize = 21.000
+reviz.TextWrapped = true
+
+infyield.Name = "infyield"
+infyield.Parent = scriptsframe
+infyield.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+infyield.Position = UDim2.new(0, 0, 0.0696428567, 0)
+infyield.Size = UDim2.new(0, 200, 0, 50)
+infyield.Font = Enum.Font.Roboto
+infyield.Text = "infiniteyield"
+infyield.TextColor3 = Color3.fromRGB(255, 255, 255)
+infyield.TextSize = 21.000
+infyield.TextWrapped = true
+
+blackhole.Name = "blackhole"
+blackhole.Parent = scriptsframe
+blackhole.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+blackhole.Position = UDim2.new(0, 0, 0.0696428567, 0)
+blackhole.Size = UDim2.new(0, 200, 0, 50)
+blackhole.Font = Enum.Font.Roboto
+blackhole.Text = "BlackHole"
+blackhole.TextColor3 = Color3.fromRGB(255, 255, 255)
+blackhole.TextSize = 21.000
+blackhole.TextWrapped = true
+
+tptool.Name = "tptool"
+tptool.Parent = scriptsframe
+tptool.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+tptool.Position = UDim2.new(0, 0, 0.0696428567, 0)
+tptool.Size = UDim2.new(0, 200, 0, 50)
+tptool.Font = Enum.Font.Roboto
+tptool.Text = "tp tool"
+tptool.TextColor3 = Color3.fromRGB(255, 255, 255)
+tptool.TextSize = 21.000
+tptool.TextWrapped = true
+
+autofarm.Name = "autofarm"
+autofarm.Parent = scriptsframe
+autofarm.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+autofarm.Position = UDim2.new(0, 0, 0.0696428567, 0)
+autofarm.Size = UDim2.new(0, 200, 0, 50)
+autofarm.Font = Enum.Font.Roboto
+autofarm.Text = "autofarm"
+autofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+autofarm.TextSize = 21.000
+autofarm.TextWrapped = true
+
+ctrltp.Name = "ctrltp"
+ctrltp.Parent = scriptsframe
+ctrltp.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ctrltp.Position = UDim2.new(0, 0, 0.0696428567, 0)
+ctrltp.Size = UDim2.new(0, 200, 0, 50)
+ctrltp.Font = Enum.Font.Roboto
+ctrltp.Text = "ctrl tp"
+ctrltp.TextColor3 = Color3.fromRGB(255, 255, 255)
+ctrltp.TextSize = 21.000
+ctrltp.TextWrapped = true
+
+fling.Name = "fling"
+fling.Parent = scriptsframe
+fling.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+fling.Position = UDim2.new(0, 0, 0.0696428567, 0)
+fling.Size = UDim2.new(0, 200, 0, 50)
+fling.Font = Enum.Font.Roboto
+fling.Text = "fling"
+fling.TextColor3 = Color3.fromRGB(255, 255, 255)
+fling.TextSize = 21.000
+fling.TextWrapped = true
+
+hitbox.Name = "hitbox"
+hitbox.Parent = scriptsframe
+hitbox.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+hitbox.Position = UDim2.new(0, 0, 0.0696428567, 0)
+hitbox.Size = UDim2.new(0, 200, 0, 50)
+hitbox.Font = Enum.Font.Roboto
+hitbox.Text = "hitbox"
+hitbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+hitbox.TextSize = 21.000
+hitbox.TextWrapped = true
+
+ctrlflyteleport.Name = "ctrlflyteleport"
+ctrlflyteleport.Parent = scriptsframe
+ctrlflyteleport.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ctrlflyteleport.Position = UDim2.new(0, 0, 0.0696428567, 0)
+ctrlflyteleport.Size = UDim2.new(0, 200, 0, 50)
+ctrlflyteleport.Font = Enum.Font.Roboto
+ctrlflyteleport.Text = "ctrl fly teleport"
+ctrlflyteleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+ctrlflyteleport.TextSize = 21.000
+ctrlflyteleport.TextWrapped = true
+
+chatspy.Name = "chatspy"
+chatspy.Parent = scriptsframe
+chatspy.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+chatspy.Position = UDim2.new(-0.0744680837, 0, 0.0946428552, 0)
+chatspy.Size = UDim2.new(0, 200, 0, 50)
+chatspy.Font = Enum.Font.Roboto
+chatspy.Text = "chat spy"
+chatspy.TextColor3 = Color3.fromRGB(255, 255, 255)
+chatspy.TextSize = 21.000
+chatspy.TextWrapped = true
+
+fepunch.Name = "fepunch"
+fepunch.Parent = scriptsframe
+fepunch.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+fepunch.Position = UDim2.new(-0.0744680837, 0, 0.0946428552, 0)
+fepunch.Size = UDim2.new(0, 200, 0, 50)
+fepunch.Font = Enum.Font.Roboto
+fepunch.Text = "fe punch "
+fepunch.TextColor3 = Color3.fromRGB(255, 255, 255)
+fepunch.TextSize = 21.000
+fepunch.TextWrapped = true
+
+feshadow.Name = "feshadow"
+feshadow.Parent = scriptsframe
+feshadow.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+feshadow.Position = UDim2.new(-0.0744680837, 0, 0.0874999985, 0)
+feshadow.Size = UDim2.new(0, 200, 0, 50)
+feshadow.Font = Enum.Font.Roboto
+feshadow.Text = "fe shadow"
+feshadow.TextColor3 = Color3.fromRGB(255, 255, 255)
+feshadow.TextSize = 21.000
+feshadow.TextWrapped = true
+
+exploitframe.Name = "exploitframe"
+exploitframe.Parent = mayin
+exploitframe.Active = true
+exploitframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exploitframe.BackgroundTransparency = 1.000
+exploitframe.Position = UDim2.new(5.38100004, 0, 0.107000001, 0)
+exploitframe.Size = UDim2.new(0, 282, 0, 221)
+
+ofya.Name = "ofya"
+ofya.Parent = exploitframe
+ofya.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+ofya.BorderColor3 = Color3.fromRGB(37, 37, 37)
+ofya.Position = UDim2.new(0.0673758835, 0, 0.122171946, 0)
+ofya.Size = UDim2.new(0, 266, 0, 50)
+ofya.Font = Enum.Font.SourceSans
+ofya.Text = "Discord add me if you want  = "
+ofya.TextColor3 = Color3.fromRGB(255, 255, 255)
+ofya.TextScaled = true
+ofya.TextSize = 14.000
+ofya.TextStrokeColor3 = Color3.fromRGB(255, 85, 0)
+ofya.TextStrokeTransparency = 0.000
+ofya.TextWrapped = true
+
+qwertya.Name = "qwertya"
+qwertya.Parent = exploitframe
+qwertya.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+qwertya.BorderColor3 = Color3.fromRGB(37, 37, 37)
+qwertya.Position = UDim2.new(0.198581576, 0, 0.307692319, 0)
+qwertya.Size = UDim2.new(0, 191, 0, 40)
+qwertya.Font = Enum.Font.SourceSans
+qwertya.Text = "yenilmezxxgg#1434"
+qwertya.TextColor3 = Color3.fromRGB(255, 255, 255)
+qwertya.TextScaled = true
+qwertya.TextSize = 14.000
+qwertya.TextStrokeColor3 = Color3.fromRGB(0, 170, 255)
+qwertya.TextStrokeTransparency = 0.000
+qwertya.TextWrapped = true
+
+languageframe.Name = "languageframe"
+languageframe.Parent = mayin
+languageframe.Active = true
+languageframe.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+languageframe.Position = UDim2.new(5.38100004, 0, 0.107000001, 0)
+languageframe.Size = UDim2.new(0, 326, 0, 273)
+
+UICorner_11.Parent = languageframe
+
+dil.Name = "dil"
+dil.Parent = languageframe
+dil.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+dil.Position = UDim2.new(0.033742331, 0, 0.0293040294, 0)
+dil.Size = UDim2.new(0, 304, 0, 45)
+dil.Font = Enum.Font.PermanentMarker
+dil.Text = "Language"
+dil.TextColor3 = Color3.fromRGB(0, 0, 0)
+dil.TextScaled = true
+dil.TextSize = 14.000
+dil.TextStrokeColor3 = Color3.fromRGB(255, 85, 0)
+dil.TextStrokeTransparency = 0.000
+dil.TextWrapped = true
+
+turk.Name = "turk"
+turk.Parent = languageframe
+turk.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+turk.Position = UDim2.new(0.033742331, 0, 0.241758242, 0)
+turk.Size = UDim2.new(0, 304, 0, 50)
+turk.Font = Enum.Font.LuckiestGuy
+turk.Text = "Turkish"
+turk.TextColor3 = Color3.fromRGB(255, 0, 0)
+turk.TextSize = 23.000
+
+english.Name = "english"
+english.Parent = languageframe
+english.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+english.Position = UDim2.new(0.033742331, 0, 0.490842491, 0)
+english.Size = UDim2.new(0, 304, 0, 50)
+english.Font = Enum.Font.PermanentMarker
+english.Text = "English"
+english.TextColor3 = Color3.fromRGB(0, 0, 0)
+english.TextSize = 23.000
+
+espanol.Name = "espanol"
+espanol.Parent = languageframe
+espanol.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+espanol.Position = UDim2.new(0.033742331, 0, 0.750915766, 0)
+espanol.Size = UDim2.new(0, 304, 0, 50)
+espanol.Font = Enum.Font.GothamSemibold
+espanol.Text = "Spanish"
+espanol.TextColor3 = Color3.fromRGB(0, 0, 0)
+espanol.TextSize = 23.000
+
+ananasor.Name = "ananasor"
+ananasor.Parent = mayin
+ananasor.Active = true
+ananasor.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+ananasor.Position = UDim2.new(0.0048780106, 0, -0.00201864098, 0)
+ananasor.Size = UDim2.new(0, 480, 0, 31)
+ananasor.Font = Enum.Font.SourceSans
+ananasor.Text = "Pepe HUB v2 "
+ananasor.TextColor3 = Color3.fromRGB(255, 255, 255)
+ananasor.TextScaled = true
+ananasor.TextSize = 14.000
+ananasor.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = ananasor
+
+creditsframe.Name = "creditsframe"
+creditsframe.Parent = mayin
+creditsframe.Active = true
+creditsframe.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+creditsframe.Position = UDim2.new(5.38100004, 0, 0.107000001, 0)
+creditsframe.Size = UDim2.new(0, 326, 0, 273)
+
+UICorner_13.Parent = creditsframe
+
+ImageLabel.Parent = creditsframe
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.Position = UDim2.new(0, 0, 0.184432194, 0)
+ImageLabel.Size = UDim2.new(0, 114, 0, 99)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6902896791"
+
+UICorner_14.CornerRadius = UDim.new(2, 8)
+UICorner_14.Parent = ImageLabel
+
+oleyyu.Name = "oleyyu"
+oleyyu.Parent = creditsframe
+oleyyu.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+oleyyu.Position = UDim2.new(0.349693239, 0, 0.219780222, 0)
+oleyyu.Size = UDim2.new(0, 212, 0, 90)
+oleyyu.Font = Enum.Font.SourceSans
+oleyyu.Text = "yenilmez_xxgg = CREATOR AND SCRIPTER"
+oleyyu.TextColor3 = Color3.fromRGB(255, 255, 255)
+oleyyu.TextSize = 14.000
+
+UICorner_15.Parent = oleyyu
+
+close.Name = "close"
+close.Parent = mayin
+close.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+close.Position = UDim2.new(0.904744864, 0, -0.00317460322, 0)
+close.Size = UDim2.new(0, 46, 0, 30)
+close.Font = Enum.Font.PermanentMarker
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+UICorner_16.Parent = close
 
 -- Scripts:
 
-local function PUTEGJO_fake_script() -- ScreenGui.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui)
+local function MBCTZ_fake_script() -- teleports.LocalScript 
+	local script = Instance.new('LocalScript', teleports)
 
-	wait(2)
-	for i = 1, 10 do
-		script.Parent.qwe.ImageTransparency = 1-(i/10)
-		wait()
-	end
-	wait(1)
-	for i = 1, 10 do
-		script.Parent.qwe.ImageTransparency = i/10
-		wait()
-	end
-	
-	
-	wait(3)
-	script.Parent.main.Visible = true
-	script.Parent.main:TweenSize(UDim2.new(0, 405,0, 241))
-	script.Parent.main.we:TweenSize(UDim2.new(0, 100,0, 100))
-	script.Parent.main.ye:TweenSize(UDim2.new(0, 255,0, 101))
-	script.Parent.main.xd:TweenSize(UDim2.new(0, 8,0, 16))
-	script.Parent.main.of:TweenSize(UDim2.new(0, 405,0, 23))
-	script.Parent.main:TweenPosition(UDim2.new(0.25, 0,0.307, 0))
-	script.Parent.main.we:TweenPosition(UDim2.new(0.041, 0,0.214, 0))
-	script.Parent.main.of:TweenPosition(UDim2.new(0, 0,0.836, 0))
-	script.Parent.main.xd:TweenPosition(UDim2.new(0, 0,0.931, 0))
-	script.Parent.main.ye:TweenPosition(UDim2.new(0.322, 0,0.214, 0))
-	
-	
-	
-	
-	wait(3)
-	script.Parent.main.xd:TweenSize(UDim2.new(0, 84,0, 16))
-	wait(3)
-	script.Parent.main.xd:TweenSize(UDim2.new(0, 169,0, 16))
-	wait(4)
-	script.Parent.main.xd:TweenSize(UDim2.new(0, 281,0, 16))
-	wait(3)
-	script.Parent.main.xd:TweenSize(UDim2.new(0, 346,0, 16))
-	wait(4.5)
-	script.Parent.main.xd:TweenSize(UDim2.new(0, 405,0, 16))
-	wait(3)
-	script.Parent.main:TweenSize(UDim2.new(0, 0,0, 0))
-	script.Parent.main.we:TweenSize(UDim2.new(0, 0,0, 0))
-	script.Parent.main.ye:TweenSize(UDim2.new(0, 0,0, 0))
-	script.Parent.main.xd:TweenSize(UDim2.new(0, 0,0, 0))
-	script.Parent.main.of:TweenSize(UDim2.new(0, 0,0, 0))
-	script.Parent.main:TweenPosition(UDim2.new(0.477, 0,0.541, 0))
-	wait(1.8)
-	script.Parent.main:Destroy()
-	wait(0)
-	for i = 1, 10 do
-		script.Parent.qwe.ImageTransparency = 1-(i/10)
-		wait()
-	end
-	wait(1)
-	for i = 1, 10 do
-		script.Parent.qwe.ImageTransparency = i/10
-		wait()
-	end
-	
-	
-	
+	print("Hello world!")
 	
 end
-coroutine.wrap(PUTEGJO_fake_script)()
-local function ULLGMI_fake_script() -- of.LocalScript 
-	local script = Instance.new('LocalScript', of)
+coroutine.wrap(MBCTZ_fake_script)()
+local function OQFTY_fake_script() -- exploit.LocalScript 
+	local script = Instance.new('LocalScript', exploit)
 
-	while true do
-		script.Parent.TextColor3 = Color3.new(1, 0, 0.0156863)
-		wait(0.1)
-		script.Parent.TextColor3 = Color3.new(0.85098, 0, 1)
-		wait(0.1)	
-		script.Parent.TextColor3 = Color3.new(0.282353, 0, 1)
-		wait(0.1)	
-		script.Parent.TextColor3 = Color3.new(0, 0.215686, 1)
-		wait(0.1)	
-		script.Parent.TextColor3 = Color3.new(0, 0.984314, 1)
-		wait(0.1)
-		script.Parent.TextColor3 = Color3.new(0.14902, 1, 0)
-		wait(0.1)
-		script.Parent.TextColor3 = Color3.new(0.784314, 1, 0)
-		wait(0.1)
-		script.Parent.TextColor3 = Color3.new(1, 0.717647, 0)
-		wait(0.1)
-		script.Parent.TextColor3 = Color3.new(1, 0.415686, 0)
-		wait(0.1)
-	script.Parent.TextColor3 = Color3.new(1, 0, 0)
-	end
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	print("Hello world!")
 	
 end
-coroutine.wrap(ULLGMI_fake_script)()
-local function RFJR_fake_script() -- of.LocalScript 
-	local script = Instance.new('LocalScript', of)
+coroutine.wrap(OQFTY_fake_script)()
+local function LPYQOJU_fake_script() -- credits.LocalScript 
+	local script = Instance.new('LocalScript', credits)
 
-	wait(8)
-	script.Parent.Text = "S"
-	wait(0.1)
-	script.Parent.Text = "Sc"
-	wait(0.1)
-	script.Parent.Text = "Scr"
-	wait(0.1)
-	script.Parent.Text = "Scri"
-	wait(0.1)
-	script.Parent.Text = "Scrip"
-	wait(0.1)
-	script.Parent.Text = "Script"
-	wait(0.1)
-	script.Parent.Text = "Script d"
-	wait(0.1)
-	script.Parent.Text = "Script do"
-	wait(0.1)
-	script.Parent.Text = "Script dow"
-	wait(0.1)
-	script.Parent.Text = "Script down"
-	wait(0.1)
-	script.Parent.Text = "Script downl"
-	wait(0.1)
-	script.Parent.Text = "Script downlo"
-	wait(0.1)
-	script.Parent.Text = "Script downloa"
-	wait(0.1)
-	script.Parent.Text = "Script download"
-	wait(0.1)
-	script.Parent.Text = "Script downloadi"
-	wait(0.1)
-	script.Parent.Text = "Script downloadin"
-	wait(0.1)
-	while true do
-		script.Parent.Text = "Script downloading"
-		wait(0.3)
-		script.Parent.Text = "Script downloading."
-		wait(0.3)
-		script.Parent.Text = "Script downloading.."
-		wait(0.3)
-		script.Parent.Text = "Script downloadin...g"
-	end
-	wait(2)
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/cihonemm/w/main/w'))()
-	
+	print("Hello world!")
 	
 end
-coroutine.wrap(RFJR_fake_script)()
+coroutine.wrap(LPYQOJU_fake_script)()
+local function IYRN_fake_script() -- buttons.LocalScript 
+	local script = Instance.new('LocalScript', buttons)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(IYRN_fake_script)()
+local function WWSLBQA_fake_script() -- language.LocalScript 
+	local script = Instance.new('LocalScript', language)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(WWSLBQA_fake_script)()
+local function SFGS_fake_script() -- cleargui.LocalScript 
+	local script = Instance.new('LocalScript', cleargui)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(SFGS_fake_script)()
+local function RFGUPR_fake_script() -- mayin.Make GUI Draggable 
+	local script = Instance.new('LocalScript', mayin)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(RFGUPR_fake_script)()
+local function UALFJ_fake_script() -- mayin.LocalScript 
+	local script = Instance.new('LocalScript', mayin)
+
+	local searchBar = script.Parent.SearchBar
+	local items = script.Parent.Items
+	
+	function UpdateResults()
+		local search = string.lower(searchBar.Text)
+		for i, v in	 pairs(items:GetChildren()) do
+			if v:IsA("GuiButton") then
+				if search ~= "" then
+					local item = string.lower(v.Text)
+					if string.find(item, search) then
+						v.Visible = true
+					else
+						v.Visible = false
+					end
+				else
+					v.Visible = true
+				end
+			end
+		end
+	end
+	
+	searchBar.Changed:Connect(UpdateResults)
+end
+coroutine.wrap(UALFJ_fake_script)()
+local function SDQAEO_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(SDQAEO_fake_script)()
+local function AJVU_fake_script() -- mularka.LocalScript 
+	local script = Instance.new('LocalScript', mularka)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(AJVU_fake_script)()
+local function IVJF_fake_script() -- mularka.Script 
+	local script = Instance.new('Script', mularka)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(IVJF_fake_script)()
